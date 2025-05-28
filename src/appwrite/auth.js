@@ -32,7 +32,7 @@ export class Authservice {
 
             return await this.account.createEmailPasswordSession(email, password)
         } catch (error) {
-            throw error
+            console.log("Error is :", error)
         }
     }
 
