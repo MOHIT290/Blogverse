@@ -43,7 +43,7 @@ function Header() {
 
   ]
 
-console.log("userdetails is ", userdetails)
+// console.log("userdetails is ", userdetails)
 
   return (
     <header className='bg-gray-500'>
