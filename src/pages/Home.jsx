@@ -32,7 +32,7 @@ function Home() {
     if (posts.length === 0) {
         return (
             <>
-                {!authstatus ? <h1>No Posts yet</h1> : <h1>Loading</h1>}
+                {!authstatus ? <h1>No Posts yet</h1> : <h1>Add posts</h1>}
 
             </>
         )
