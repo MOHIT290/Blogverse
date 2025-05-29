@@ -14,7 +14,7 @@ function Post() {
     // recent changes done added .auth
     const userData = useSelector((state) => state.auth.userData)
 
-    const isAuthor = post && userData ? post.userId === userData.userdata.$id : false
+    const isAuthor = post && userData ? post.userId === userData.$id : false
 
     const [imageUrl, setImageUrl] = useState("");
 

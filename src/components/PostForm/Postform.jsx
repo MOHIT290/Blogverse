@@ -57,7 +57,8 @@ function Postform({ post }) {
                     {
                         ...data,
                         Image: file ? file.$id : undefined,
-                        userId: userdata.userdata.$id
+                        // userId: userdata.userdata.$id
+                        userId: userdata.$id
                     }
                 )
 
